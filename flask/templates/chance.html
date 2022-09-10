@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Floods Prediction</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<style type="text/css">
+    body{
+      background-color: #dedbd3;
+    }
+    nav{
+      background-color: #050505;
+      height: 60px;
+    }
+    .navbar-brand{
+      color: white;
+      font-size: 30px
+    }
+
+    nav ul li a{
+      color: red;  
+      font-size: 20px
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">Floods Prediction</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="/">Home</a></li>
+      <li><a href="/predict">Predict Floods</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!--
+  <style type="text/css">
+    body{
+      background-color: #ffcf0059;
+    }
+    .page-header{
+      background-color: blue;
+      width: 100%;
+      height: auto;
+      text-align: center;
+      padding-top: 5px;
+      color: #fff;
+    }
+    h1{
+      font-size: 40px;
+      font-weight: bold;
+    }
+    h3{
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <ul class="nav navbar-nav navbar-right">
+      <li><a href="/">Home</a></li>
+      <li><a href="/predict">Go to Predict</a></li>
+    </ul>
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+         <div class="page-header">
+            <h1>Floods Prediction</h1>
+          </div>
+      </div>
+    </div>
+  </div>
+-->
+  
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <div class="p-2 my-2 border">
+            <div align="center">
+            <h3>{{prediction}}</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script
+</body>
+</html>
